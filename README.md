@@ -1,12 +1,12 @@
 # docker-node-webpack
-Webpack dev and build tools as a docker container
+Nodejs build tools as a docker container
 
 ## Supported tags and respective `Dockerfile` links
--	[`alpine` (*Dockerfile*)](https://github.com/ciandt-china-dev/docker-node-webpack/blob/master/alpine/Dockerfile)
+-	[`10-build-tools` (*Dockerfile*)](https://github.com/ciandt-china-dev/docker-node/blob/master/10/build-tools/Dockerfile)
 
 ## The purpose of this container image
 
-- Provide a docker container for developers to build the webpack project, without installing the node/webpack locally
+- Provide a docker container for developers to build the webpack project, without installing the node/webpack, node/gulp locally
 
 ## Reference
 **Maintained by**:
