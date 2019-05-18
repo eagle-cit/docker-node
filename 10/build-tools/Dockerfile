@@ -8,6 +8,9 @@ RUN apt-get update \
   && npm install -g npm@latest webpack@latest node-gyp@latest gulp@latest \
   && npm cache clean --force
 
+ENV NPM_CONFIG_PREFIX=/app/.npm-global
+ENV PATH=$PATH:/app/.npm-global/bin
+
 VOLUME /app
 
 WORKDIR /app
